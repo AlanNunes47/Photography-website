@@ -1,0 +1,58 @@
+.body {
+    background-color: black;
+}
+
+.h1 {
+    font-family: Lexend;
+    justify-content: center;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  
+} 
+
+.div1 {
+ width: 600px;
+ height: 700px;
+ 
+ justify-content: center;
+
+}
+
+.div2 {
+    width: 200px;
+    height: 700px;
+    
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.text-div1 {
+
+height: 210px;
+width: 800px;
+font-size: 1000%;
+font-family: Lexend;
+color: white;
+}
+
+.text-div2 {
+
+    height: 210px;
+    width: 800px;
+    font-size: 1000%;
+    font-family: Lexend;
+    color: white;
+}
+
+.text-div3 {
+    
+    height: 210px;
+    width: 800px;
+    font-size: 1000%;
+    font-family: Lexend;
+    color: white;
+}
+
