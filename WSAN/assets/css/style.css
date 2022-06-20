@@ -1,0 +1,61 @@
+/* !FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400&display=swap');
+
+/* !BASE STYLES/RESET */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* !Custom Properties */
+:root{
+    --light-color: #f3f3fe;
+    --dark-color: #363636;
+    --border-top-color: rgba(0,0,0,.1);
+    --link-hover-color: rgba(255,255,255,.2);
+    --title-font-family: 'Playfair Display', 'serif';
+    --body-font-family: 'Poppins', 'sans-serif';
+    --container-padding: 0;
+    --section-vertical-spacing: 8rem;
+}
+
+html {
+    /* 10px */
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--body-font-family);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    overflow-x: hidden;
+}
+
+
+/* !Main Div */
+.main-section {
+    display: flex;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fit, minmax(2, 1fr));
+    grid-template-rows: 1fr;
+    min-height: 100vh;
+}
+
+.right-side{
+    float: right;
+}
+
+.image{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1{
+    font-size: 21rem;
+}
